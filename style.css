@@ -1,0 +1,161 @@
+ /* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white ;
+
+  }
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+  .header {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+  }
+ 
+nav {
+  background-color: teal;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+ 
+  .about {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .avatar img {
+    width: 150px;
+    height: 150px;
+   object-fit: cover;
+   border: 5px solid #800020;
+   border-radius: 10px;
+  }
+  
+  .about h2 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color:black;
+  }
+  
+  /* Academic Background Section */
+  .academics {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .academics h2 {
+    font-size: 1.8rem;
+    color:black;
+  }
+  
+  .academics p {
+    color: black;
+    margin: 5px 0;
+  }
+  
+  /* Skills Section */
+  .skills {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .skills h2 {
+    font-size: 1.8rem;
+    color: black ;
+  }
+  
+  .skill-list {
+    list-style-type: none;
+    padding: 0;
+    color:black;
+  }
+  
+  /* Projects Section */
+  .projects {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .projects h2 {
+    font-size: 1.8rem;
+    color:black;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  .project p {
+    color: black ;
+    font-size: 1rem;
+  }
+  
+  .contact-section {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    vertical-align: middle;
+  }
+  
+  
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: auto;
+    color: black;
+    font-size: 0.9rem;
+  }
